@@ -1,5 +1,6 @@
 
-I' m currently working on low level zig ui library<br>I' m also learning zig and assembly<br>
+For now I'm working on efficient desktop UI framework in Zig, utilizing <br> GLFW with GLAD. I Also like Assembly and Python, 
+especially the AI part.
 
 
 # 💻 Tech Stack:
