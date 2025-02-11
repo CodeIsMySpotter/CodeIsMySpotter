@@ -1,6 +1,7 @@
 
-For now I'm working on efficient desktop UI framework in Zig, utilizing <br> native system APIs. I Also like Assembly and Python, 
-especially the AI part.
+I am the student of PUT (Poznan university of technology) experienced especially in ***Python (MediaPipe, numpy, pandas)*** <br> 
+and ***ZIG (ZigUi project)*** as well. I find it extremly interesting to work with low-level APIs (WinApi / X11) and creating high-level abstractions <br>
+over them where the ZigUi project is the case. I am also passionate about ***Artiffical Neural Networks*** and ***Deep learning methods***. <br>
 
 
 # 💻 Tech Stack:
