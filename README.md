@@ -1,6 +1,6 @@
 
 I am the student of PUT (Poznan university of technology) experienced especially in ***Python (MediaPipe, numpy, pandas)*** 
-and ***ZIG (ZigUi project)*** as well. I find it extremly interesting to work with low-level APIs (WinApi / X11) and creating high-level abstractions 
+and ***Rust (VEGA-UI project)*** as well. I find it extremly interesting to work with low-level APIs (WinApi / X11) and creating high-level abstractions 
 over them where the ZigUi project is the case. I am also passionate about ***Artiffical Neural Networks*** and ***Deep learning methods***. 
 
 
