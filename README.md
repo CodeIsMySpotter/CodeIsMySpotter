@@ -6,5 +6,8 @@ On the other side, I also love building reliable and efficient backend systems, 
 
 Always curious, always learning. 🚀
 
+Some stats here ⬇️
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CodeIsMySpotter&show_icons=true&theme=tokyonight)
+
+Most used languages ⬇️
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeIsMySpotter&layout=compact&theme=tokyonight)
