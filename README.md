@@ -8,7 +8,6 @@ Always curious, always learning. 🚀
 
 ### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CodeIsMySpotter&show_icons=true&theme=tokyonight)  
 ![GitHub Streak](https://streak-stats.demolab.com/?user=CodeIsMySpotter&theme=tokyonight)  
 ![Profile views](https://komarev.com/ghpvc/?username=CodeIsMySpotter&color=blueviolet)  
 
