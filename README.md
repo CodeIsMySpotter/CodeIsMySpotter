@@ -1,10 +1,42 @@
-### Hi there 👋
+# Hi there! I'm [Twoje Imię/Nick] 👋
 
-I'm passionate about low-level and system programming, especially in languages like Rust, Zig, and x86 Assembly (NASM). I enjoy exploring the internals of how computers work and pushing performance boundaries in High-Performance Computing (HPC).
+### 🎓 Education
+I am a **Computer Science student** at **Poznan University of Technology (PUT)**. I'm passionate about building robust systems and exploring how things work under the hood.
 
-On the other side, I also love building reliable and efficient backend systems, mostly with Go and Rust.
+---
 
-Always curious, always learning. 🚀
+### 💻 Tech Stack & Interests
+* **Backend Development:** My main focus. I have experience with **Go (Fiber)** and **Python (FastAPI)**.
+* **Low-Level Exploration:** I love experimenting with performance-oriented languages like **Rust** and **Zig** to sharpen my understanding of systems programming.
+* **Data & Web:** Combining analytical power with modern UIs.
+
+---
+
+### 🚀 Current Project : : IN PROGRESS
+#### **Stock Portfolio Analytics Engine**
+An analytical tool designed to track and analyze stock market investments. It allows you to backtest your portfolio and compare it with given benchmark. 
+* **Frontend:** Next.js
+* **Backend:** FastAPI (Python)
+* **Data Processing:** Pandas & numpy
+* 🔗 **[Check out the website here](https://stock-api-psi.vercel.app)**
+
+---
+
+### 🛠 Tools & Languages
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+
+---
+
+### 📫 How to reach me
+- **LinkedIn:** [Twój Link]
+- **Email:** [Twój Email]
+
 
 ### 📊 GitHub Stats
 
