@@ -1,4 +1,4 @@
-# Hi there! I'm [Twoje Imię/Nick] 👋
+# Hi there! I'm [Bartosz Torzewicz] 👋
 
 ### 🎓 Education
 I am a **Computer Science student** at **Poznan University of Technology (PUT)**. I'm passionate about building robust systems and exploring how things work under the hood.
