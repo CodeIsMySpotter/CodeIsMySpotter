@@ -4,7 +4,6 @@ I am a Computer Science student at Poznan University of Technology, focusing on 
 
 Instead of chasing tech trends, I build my engineering foundation on **strict static typing, system architecture, predictable data flow, and total determinism**.
 
----
 
 ### 🛠️ Tech Stack & Tooling
 * **Languages:** Rust, Go, SQL
@@ -12,7 +11,6 @@ Instead of chasing tech trends, I build my engineering foundation on **strict st
 * **Frontend (Lightweight):** HTMX, Tailwind CSS
 * **Databases & DevOps:** PostgreSQL, SQLite, Docker, Fly.io
 
----
 
 ### 🧠 Current Research & Interests
 * **Biologically Inspired AI:** Spiking Neural Networks (SNN) & Reservoir Computing.
