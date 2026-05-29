@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="flex flex-col items-center justify-center text-center min-h-[60vh] px-4 space-y-12 animate-fade-in">
+    
+    <div class="space-y-4 max-w-2xl">
+        <h2 class="text-4xl font-black tracking-tight sm:text-5xl bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Building High-Performance Systems.
+        </h2>
+        <p class="text-lg text-slate-400 leading-relaxed font-light">
+            Hi! I'm a computer science student at Poznan University of Technology. 
+            I specialize in clean backend development, strict type safety, and systems that don't break under pressure.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-2xl pt-4">
+        
+        <a href="/projects" 
+           class="group relative block p-8 bg-slate-800/50 rounded-2xl border border-slate-700/60 text-left transition-all duration-300 ease-out
+                  hover:-translate-y-1 hover:border-indigo-500/50 
+                  hover:shadow-[0_0_30px_rgba(99,102,241,0.2)]">
+            <div class="flex flex-col h-full justify-between space-y-3">
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl">🚀</span>
+                    <span class="text-slate-500 group-hover:text-indigo-400 transition-colors duration-300 font-mono text-lg">&rarr;</span>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-slate-100 group-hover:text-indigo-400 transition-colors duration-300">
+                        View My Projects
+                    </h3>
+                    <p class="text-sm text-slate-400 mt-1">
+                        Explore Fundly, Stormy, and the encrypted NeoGit core.
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/me" 
+           class="group relative block p-8 bg-slate-800/50 rounded-2xl border border-slate-700/60 text-left transition-all duration-300 ease-out
+                  hover:-translate-y-1 hover:border-pink-500/50 
+                  hover:shadow-[0_0_30px_rgba(236,72,153,0.2)]">
+            <div class="flex flex-col h-full justify-between space-y-3">
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl">🥷</span>
+                    <span class="text-slate-500 group-hover:text-pink-400 transition-colors duration-300 font-mono text-lg">&rarr;</span>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-slate-100 group-hover:text-pink-400 transition-colors duration-300">
+                        About Me
+                    </h3>
+                    <p class="text-sm text-slate-400 mt-1">
+                        Get to know my tech stack, lifestyle, and philosophy.
+                    </p>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</div>
+{% endblock %}

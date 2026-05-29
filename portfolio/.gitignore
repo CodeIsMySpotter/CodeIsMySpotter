@@ -1,0 +1,9 @@
+target/
+
+.env
+.env.*
+*.local
+
+
+.vscode/
+.idea/

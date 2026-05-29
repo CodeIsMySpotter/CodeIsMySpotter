@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto space-y-12 animate-fade-in">
+    
+    <div class="space-y-2 border-b border-slate-800 pb-6">
+        <h2 class="text-3xl font-black tracking-tight text-slate-100 sm:text-4xl">
+            Who is behind the code?
+        </h2>
+        <p class="text-sm font-mono text-pink-400">~/poznan/put/student</p>
+    </div>
+
+    <section class="space-y-6 text-slate-300 leading-relaxed font-light">
+        <p class="text-lg text-slate-200 font-normal">
+            I'm a Computer Science student at Poznan University of Technology, focusing on building reliable, high-performance web systems and exploring backend architecture.
+        </p>
+        <p>
+            My engineering philosophy revolves around <strong>strict static typing, system architecture, predictable data flow, and total determinism</strong>. I enjoy diving deep into how systems handle data efficiently, which naturally led me to appreciate compiled languages like Rust and Go. For web interfaces, I prefer clean, lightweight tools like HTMX that allow me to focus heavily on robust server-side logic.
+        </p>
+    </section>
+
+    <section class="space-y-4">
+        <h3 class="text-xl font-bold text-slate-100 tracking-tight flex items-center gap-2">
+            <span>🎯</span> Research & Passions
+        </h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="p-6 bg-slate-800/30 rounded-xl border border-slate-800 space-y-2">
+                <div class="text-indigo-400 font-bold text-sm font-mono">[ 🧠 Spiking Neural Networks ]</div>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    I am deeply fascinated by biologically inspired AI, specifically Spiking Neural Networks (SNN) and Reservoir Computing. I love analyzing how temporal information processing and reservoir dynamics can create efficient, brain-like computation models.
+                </p>
+            </div>
+
+            <div class="p-6 bg-slate-800/30 rounded-xl border border-slate-800 space-y-2">
+                <div class="text-emerald-400 font-bold text-sm font-mono">[ 📈 Passive Investing ]</div>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    When looking at financial markets, I apply the same engineering principles: rule-based logic and long-term stability. I treat passive investing as a hobby, building structured, low-maintenance portfolios based on broad market indexes.
+                </p>
+            </div>
+
+            <div class="p-6 bg-slate-800/30 rounded-xl border border-slate-800 space-y-2 md:col-span-2">
+                <div class="text-pink-400 font-bold text-sm font-mono">[ 💎 Isometric 3D Art ]</div>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    On the creative side, I practice designing stylized, isometric 3D spaces using Blender. It's a perfect playground for me to connect structured geometric design with visual aesthetics and lighting.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-6 bg-gradient-to-br from-slate-800/20 to-purple-950/10 rounded-2xl border border-purple-900/20 flex flex-col sm:flex-row items-center gap-6">
+        <span class="text-4xl sm:text-5xl">🌆</span>
+        <div class="space-y-1 text-center sm:text-left">
+            <h4 class="font-bold text-slate-200">The Student Journey</h4>
+            <p class="text-sm text-slate-400 leading-relaxed">
+                Most of my code and research come to life between university courses, inside quiet coffee shops around Poznań's Old Town, or during focused weekends spent back at my parents' countryside home.
+            </p>
+        </div>
+    </section>
+
+    <div class="pt-6 flex justify-center border-t border-slate-800">
+        <a href="https://github.com/" 
+           target="_blank" 
+           class="group flex items-center gap-3 px-6 py-3 bg-purple-600/10 hover:bg-purple-600/20 text-purple-300 font-medium text-sm rounded-xl border border-purple-500/30 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.15)]">
+            <span>Check my source code on GitHub</span>
+            <span class="group-hover:translate-x-1 transition-transform font-mono">&rarr;</span>
+        </a>
+    </div>
+
+</div>
+{% endblock %}

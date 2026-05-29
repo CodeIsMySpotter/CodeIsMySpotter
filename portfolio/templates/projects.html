@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto space-y-10 animate-fade-in">
+    
+    <div class="space-y-2 border-b border-slate-800 pb-6">
+        <h2 class="text-3xl font-black tracking-tight text-slate-100 sm:text-4xl">
+            My Engineering Lab
+        </h2>
+        <p class="text-slate-400 font-light text-lg">A collection of systems I design, build, and maintain.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {% for project in projects %}
+            
+            {% match project.status %}
+                
+                {% when ProjectStatus::Concept %}
+                <div class="relative p-6 bg-slate-900/40 rounded-2xl border border-slate-800/80 text-left opacity-60">
+                    <div class="flex items-start justify-between">
+                        <span class="text-3xl">{{ project.icon }}</span>
+                        <span class="px-2.5 py-0.5 text-xs font-mono bg-slate-800 text-slate-400 rounded-full border border-slate-700/50">💡 Concept</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-bold text-slate-400">{{ project.title }}</h3>
+                        <p class="text-sm text-slate-500 mt-2 font-light leading-relaxed">{{ project.description }}</p>
+                    </div>
+                </div>
+
+                {% when ProjectStatus::Forging %}
+                <div class="group relative p-6 bg-slate-800/30 rounded-2xl border border-slate-700/40 text-left transition-all duration-300
+                            hover:-translate-y-1 hover:border-amber-500/30 hover:shadow-[0_0_30px_rgba(245,158,11,0.1)]">
+                    <div class="flex items-start justify-between">
+                        <span class="text-3xl">{{ project.icon }}</span>
+                        <div class="flex items-center gap-1.5 px-2.5 py-0.5 text-xs font-mono bg-amber-500/10 text-amber-400 rounded-full border border-amber-500/20">
+                            <span class="animate-pulse">🔨</span> Forging
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-amber-400 transition-colors duration-300">{{ project.title }}</h3>
+                        <p class="text-sm text-slate-400 mt-2 font-light leading-relaxed">{{ project.description }}</p>
+                    </div>
+                </div>
+
+                {% when ProjectStatus::Ready with { link } %}
+                <a href="{{ link }}" target="_blank" 
+                   class="group relative block p-6 bg-slate-800/50 rounded-2xl border border-slate-700/60 text-left transition-all duration-300 ease-out
+                          hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-[0_0_30px_rgba(16,185,129,0.15)]">
+                    <div class="flex items-start justify-between">
+                        <span class="text-3xl">{{ project.icon }}</span>
+                        <div class="flex items-center gap-1 px-2.5 py-0.5 text-xs font-mono bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20">
+                            <span>✨</span> Ready
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-xl font-bold text-slate-100 group-hover:text-emerald-400 transition-colors duration-300">{{ project.title }}</h3>
+                            <span class="text-slate-500 group-hover:text-emerald-400 transition-colors duration-300 font-mono">&rarr;</span>
+                        </div>
+                        <p class="text-sm text-slate-400 mt-2 font-light leading-relaxed">{{ project.description }}</p>
+                    </div>
+                </a>
+
+            {% endmatch %}
+
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

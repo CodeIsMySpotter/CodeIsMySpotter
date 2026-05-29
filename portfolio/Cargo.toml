@@ -1,0 +1,24 @@
+[package]
+name = "portfolio"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Web server core
+axum = { version = "0.8.9", features = ["macros"] }
+tokio = { version = "1.0", features = ["full"] }
+
+# HTTP Middleware & Utilities
+tower-http = { version = "0.5", features = ["fs", "compression-full", "cors"] }
+
+# HTML Templating (Compile-time checked)
+askama = "0.16.0"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Environment & Logging
+dotenvy = "0.15"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
