@@ -42,7 +42,7 @@ async fn projects_page() -> Html<String> {
             title: "Stormy",
             description: "A live collaborative whiteboard platform for students to exchange notes and study material in real-time.",
             icon: "⚡",
-            status: ProjectStatus::Concept, // Status: Concept 💡
+            status: ProjectStatus::Forging, // Status: Forging 🔨
         },
         Project {
             title: "Live Portfolio",
