@@ -58,7 +58,7 @@ async fn projects_page() -> Html<String> {
         },
         Project {
             title: "Gastro Template",
-            description: "A lightweight, high-performance Go backend avoiding heavy frameworks. Dynamic Configuration: Added config.json to centrally manage restaurant info, theme colors, and 'About Us' sections. Google Sheets Integration: Implemented startup logic to fetch, parse, and cache CSV menu data directly from Google Sheets into memory. HTMX Frontend: Integrated HTMX to dynamically render menu partials. Responsive UI: Designed a modern, premium layout using vanilla CSS with mobile responsiveness. Multi-language Support: Created separate structural directories for Polish and English variants. Deployment: Added multi-stage Dockerfile optimized for seamless Fly.io deployments.",
+            description: "A modern, high-performance restaurant website template built with Go and HTMX. Features include dynamic menu management via Google Sheets, multi-language support, and a responsive design. Optimized for quick deployment on platforms like Fly.io.",
             icon: "🍽️",
             status: ProjectStatus::Ready { link: "https://gastro-demo.fly.dev" }, // Status: Ready ✨ 
         }
