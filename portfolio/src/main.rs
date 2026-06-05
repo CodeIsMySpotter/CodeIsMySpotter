@@ -21,7 +21,10 @@ async fn main() {
         
         // Subpages add the /me and /projects prefixes, so we NEST them
         .nest("/me", pages::me::me::router())
-        .nest("/projects", pages::projects::projects::router());
+        .nest("/projects", pages::projects::projects::router())
+        
+        // Serve static files from the "templates/images" directory at the "/images" path
+        .nest_service("/images", tower_http::services::ServeDir::new("templates/images"));
 
     // 3. Start the server on port 8080
     let addr = SocketAddr::from(([0, 0, 0, 0], 8080));

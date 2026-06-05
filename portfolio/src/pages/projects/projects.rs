@@ -50,6 +50,12 @@ async fn projects_page() -> Html<String> {
             icon: "🥷",
             status: ProjectStatus::Ready { link: "https://spotter-portfolio.fly.dev" }, // Status: Ready ✨
         },
+        Project {
+            title: "Universal Logger",
+            description: "Online log terminal with discord, slack and gmail integration designed for easy connection.",
+            icon: "📄",
+            status: ProjectStatus::Ready { link: "https://universallogger.fly.dev" }, // Status: Ready ✨ 
+        }
     ];
 
     let template = ProjectsTemplate { projects };
