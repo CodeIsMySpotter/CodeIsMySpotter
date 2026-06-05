@@ -61,6 +61,12 @@ async fn projects_page() -> Html<String> {
             description: "A modern, high-performance restaurant website template built with Go and HTMX. Features include dynamic menu management via Google Sheets, multi-language support, and a responsive design. Optimized for quick deployment on platforms like Fly.io.",
             icon: "🍽️",
             status: ProjectStatus::Ready { link: "https://gastro-demo.fly.dev" }, // Status: Ready ✨ 
+        },
+        Project {
+            title: "Shopify Template",
+            description: "A modern, high-performance e-commerce website template built with Go and HTMX. Features include dynamic product browsing via Shopify Storefront API, real-time shopping cart, responsive design. Optimized for quick deployment on platforms like Fly.io.",
+            icon: "🛍️",
+            status: ProjectStatus::Ready { link: "https://shopify-demo.fly.dev" }, // Status: Ready ✨ 
         }
     ];
 
