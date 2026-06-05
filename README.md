@@ -21,8 +21,3 @@ Instead of chasing tech trends, I build my engineering foundation on **strict st
 ### 📄 My portfolio: https://spotter-portfolio.fly.dev
 
 
-### Some stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeIsMySpotter&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
-</div>
