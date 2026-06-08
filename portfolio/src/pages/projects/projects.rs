@@ -51,10 +51,11 @@ async fn projects_page() -> Html<String> {
             status: ProjectStatus::Ready { link: "https://spotter-portfolio.fly.dev" }, // Status: Ready ✨
         },
         Project {
-            title: "Universal Logger",
+            title: "Quick Logger",
             description: "Online log terminal with discord, slack and gmail integration designed for easy connection.",
             icon: "📄",
-            status: ProjectStatus::Ready { link: "https://universallogger.fly.dev" }, // Status: Ready ✨ 
+            //status: ProjectStatus::Ready { link: "https://universallogger.fly.dev" }, // Status: Ready ✨ 
+            status: ProjectStatus::Forging,
         },
         Project {
             title: "Gastro Template",
@@ -66,7 +67,8 @@ async fn projects_page() -> Html<String> {
             title: "Shopify Template",
             description: "A modern, high-performance e-commerce website template built with Go and HTMX. Features include dynamic product browsing via Shopify Storefront API, real-time shopping cart, responsive design. Optimized for quick deployment on platforms like Fly.io.",
             icon: "🛍️",
-            status: ProjectStatus::Ready { link: "https://shopify-demo.fly.dev" }, // Status: Ready ✨ 
+            //status: ProjectStatus::Ready { link: "https://shopify-demo.fly.dev" }, // Status: Ready ✨ 
+            status: ProjectStatus::Forging,
         }
     ];
 
